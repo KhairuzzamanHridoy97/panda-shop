@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container">
                   <a class="navbar-brand" href="#">
                     <img src="./images/logo.png" alt="" >
@@ -31,7 +31,7 @@
                         <a class="nav-link" href="#backpack">Backpack</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#subcribe">Subscribe</a>
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
                       </li>
                     </ul>
                   
@@ -143,7 +143,7 @@
           </div>
       </section>
       <!-- Shoes -->
-      <section class="container">
+      <section class="container" id="shoes">
           <h2>Shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -192,7 +192,7 @@
           </div>
       </section>
       <!-- Bags -->
-      <section class="container">
+      <section class="container my-5" id="backpack">
         <h2>Bags</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -240,10 +240,23 @@
           </div>
         </div>
     </section>
+    <!-- Subscribe -->
+    <section style="height: 300px;" class="container d-flex justify-content-center bg-info align-items-center rounded-3" id="subscribe"> 
+        <div>
+
+            <h1>Keep In Touch</h1>
+            <p>Get Update on sales , specails and more</p>
+            <input type="text" placeholder="Your Mail"> <br>
+            <button class="btn btn-warning my-3">Submit</button>
+        </div>
+    </section>
     </main>
 
-    <footer>
-
+    <!-- Footer -->
+    <footer class="mt-5 text-center" >
+        <p><small>
+            ©2021. Panda Commerce. All rights reserved. Sofia, Bulgaria.
+        </small></p>
     </footer>
 
     
